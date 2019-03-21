@@ -1,0 +1,26 @@
+{
+  "name": "@roseys/pikaaccesstest",
+  "version": "1.0.0",
+  "description": "testing access issue",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }, 
+   "scripts": {
+    "build": "pika-pack build",
+    "publish": "pika-pack publish"
+  },
+  "dependencies": {
+    "@pika/pack": "^0.3.5"
+  },
+  "devDependencies": {
+    "@pika/plugin-standard-pkg": "^0.3.14"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@roseys/pikaaccesstest",
+  "description": "testing access issue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "esnext": "dist-src/index.js",
+  "pika": true,
+  "sideEffects": false,
+  "files": [
+    "dist-*/",
+    "assets/",
+    "bin/"
+  ],
+  "dependencies": {
+    "@pika/pack": "^0.3.5"
+  },
+  "devDependencies": {
+    "@pika/plugin-standard-pkg": "^0.3.14"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
